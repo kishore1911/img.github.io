@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  
+}
+body{
+    display: flex;
+    align-items: center;
+   justify-content: center;
+   flex-wrap: wrap;
+   height: 100vh;
+   background-color: rgba(0,0,0,0.4);;
+}
+
+.card{
+    width: 250px;
+    height: 350px;
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: aqua;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.4);
+    margin: 8px;
+
+}
+.img_div{
+    background-image: url("0987654.JPG" );
+    background-position: center;
+    background-size: cover;
+    height: 70%;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+
+}
+
+.img_div img{
+    height: 350px;
+    width: 250px;
+} 
+
+.img_{
+    background-image: url("999999.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 75%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+
+}
+.img_ img{
+    height: 300px;
+    width: 200px;
+
+}
+.img1_{
+    background-image: url("IMG_20191002_213003.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 75%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    
+
+}
+.img1_ img{
+    height: 300px;
+    width: 200px;
+}
+.img2_{
+    background-image: url("IMG-20200730-WA0029.jpg");
+    height: 70%;
+    background-position: center;
+    background-size: cover;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+img2_ img{
+    height: 300px;
+    width: 250px;
+}
